@@ -26,6 +26,7 @@ Open the `src` folder and create the following folder structure:
    ```javascript
     <BrowserRouter>
         <Routes>
+         <Route path="*" element={<h1>404 not found</h1>} />
         </Routes>
     </BrowserRouter>
 ```
