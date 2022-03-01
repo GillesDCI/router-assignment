@@ -31,3 +31,31 @@ Open the `src` folder and create the following folder structure:
 ```
  
 ## Task 4 Adding in pages for our Routes. 
+In this taks we want to create our page components.
+
+### Task 4.1 Creating pages
+Navigate to the `routes` folder and create the following folders:
+- HomePage
+- AboutPage
+
+Make sure that each folder contains the corresponding component file. Inside HomePage this will be `HomePage.js` and inside AboutPage this will be `AboutPage.js`.
+
+result should be: 
+- HomePage
+  - `HomePage.js` 
+- AboutPage
+  - `AboutPage.js` 
+
+
+ ### Task 4.2 Creating page components
+ Create for each page a component use the following snippet as an example to create the component: 
+```javascript
+export default function Homepage() {
+  return (
+    <div>
+      <h1>I am a page component</h1>
+    
+    </div>
+  );
+}
+```
