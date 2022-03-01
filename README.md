@@ -77,4 +77,6 @@ Snippet for a route:
 ```javascript
  <Route path="/" element={<Homepage />} />
 ```
-### Task 5.2 Creating the routes.
+### Task 5.3 Start the application and test.
+Run `npm start` in the terminal and test by navigating to the about page (`/about`) and to the homepage (`/`). In each case you should see their corresponding page component.
+
