@@ -48,14 +48,33 @@ result should be:
 
 
  ### Task 4.2 Creating page components
- Create for each page a component use the following snippet as an example to create the component: 
+ Create for each page, a component use the following snippet as an example to create the component: 
 ```javascript
 export default function Homepage() {
   return (
-    <div>
-      <h1>I am a page component</h1>
-    
-    </div>
+      <div>
+         <h1>I am a page component</h1>
+      </div>
   );
 }
 ```
+
+## Task 5 Wiring up the routes. 
+
+### Task 5.1 Importing the pages.
+Open `App.js` and import the two page components: 
+
+Example: 
+```javascript
+import Homepage from "./routes/Homepage/Homepage";
+```
+
+### Task 5.2 Creating the routes.
+Inside `App.js` add two new routes inside the `<Routes>` tag.  
+One route should have `path="/"`to the root of the application and the othe should be accessible through `/about` so the path should be `path="/about"`.
+
+Snippet for a route: 
+```javascript
+ <Route path="/" element={<Homepage />} />
+```
+### Task 5.2 Creating the routes.
