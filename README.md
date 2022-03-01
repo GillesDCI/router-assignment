@@ -109,6 +109,6 @@ Test whether the navigation to the About page is working.
 This task is **optional**. You can also review the materials instead.
 
 - Add in two extra pages (A contact page and a portfolio page)
-- Create a Navigation component using Link and allow to navigate through all the pages. 
+- Create a new Navigation component and allow to navigate through all the pages. 
 
 
