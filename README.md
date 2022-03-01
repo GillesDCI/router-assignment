@@ -80,3 +80,35 @@ Snippet for a route:
 ### Task 5.3 Start the application and test.
 Run `npm start` in the terminal and test by navigating to the about page (`/about`) and to the homepage (`/`). In each case you should see their corresponding page component.
 
+
+## Task 6 Creating navigation using `Link`
+
+### Task 6.1 HomePage navigation
+Open the homepage component `HomePage.js`. 
+
+
+### Task 6.2 Import the `Link` functionality from `react-router-dom`. 
+Import the `Link` functionality form the `react-router-dom`
+
+Example :
+```javascript
+ import { Link } from 'react-router-dom';
+```
+
+### Task 6.3 Creating a link
+Place the `<Link>` tag inside the return function of the component. And make sure it navigates to the AboutPage. 
+
+```javascript
+<Link to={"/page"}>A Link to a page</Link>
+```
+
+### Task 6.4 Test out whether the navigation works! 
+Test whether the navigation to the About page is working. 
+
+## Bonus Task 
+This task is **optional**. You can also review the materials instead.
+
+- Add in two extra pages (A contact page and a portfolio page)
+- Create a Navigation component using Link and allow to navigate through all the pages. 
+
+
